@@ -1,0 +1,23 @@
+*{margin:0; padding: 0;}
+
+@media only screen and (max-width: 480px)
+{
+/*	.container2 .content img
+	{
+		width: 0;
+	}*/
+	header
+	{
+		width: 400px;
+	}
+	.container .text
+	{
+		width: 350px;
+	}
+	.container1
+	{
+		width: 100%;
+
+		
+	}
+}

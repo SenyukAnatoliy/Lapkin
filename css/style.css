@@ -9,6 +9,8 @@
 	width: 100%;
 	height: 1020px;
     background: linear-gradient(45deg, #8c697b 0%,#31697b 49%,#8c697b 100%);
+    /*position: relative;*/
+    box-shadow: 0px 10px 24px -3px rgba(0,0,0,0.43);
 }
 header
 {
@@ -81,6 +83,7 @@ hr
 	background: white;
 	margin-left: 13px;
 }
+/*====================*/
 .container2
 {
 	width: 100%;
@@ -151,7 +154,7 @@ button:hover
 {
 	width: 100%;
 	height: 665px;
-    background:#F7F7F7;
+    background:#DDDFEB;
     text-align: center;
 }
 .images
@@ -236,10 +239,11 @@ button:hover
 .container4
 {
 	width: 100%;
-	height: 795px;
+	height: 695px;
 	background: linear-gradient(45deg, #8c697b 0%,#31697b 49%,#8c697b 100%);
-	display: flex;
-	justify-content: center;
+	/*display: flex;*/
+	padding-top: 8%;
+	/*justify-content: center;*/
 }
 .container4 .content
 {
@@ -248,6 +252,7 @@ button:hover
 	/*background: red;*/
 	display: flex;
 	justify-content: space-between;
+	
 }
 .content .tx
 {

@@ -79,8 +79,9 @@ header
 hr
 {
 	width: 530px;
-	height: 1px;
+	height: 2px;
 	background: white;
+	border:none;
 	margin-left: 13px;
 }
 /*====================*/
@@ -106,7 +107,7 @@ hr
 .text2
 {
 	width: 610px;
-	height: 280px;
+	height: 420px;
 	/*background: green;*/
 	position: absolute;
 	top: 170px;
@@ -131,12 +132,15 @@ hr
 }
 button
 {
+	position: absolute;
 	width: 200px;
 	height: 50px;
 	background: #FF284A;
 	position: absolute;
-	top: 515px;	
-	right: 410px;
+	/*top: 350px;	*/
+	/*bottom: 0;*/
+	/*right: 410px;*/
+	margin-top: 50px;
 	color: white;
 	font-size:  17px;
 	border: none;
@@ -252,7 +256,7 @@ button:hover
 	/*background: red;*/
 	display: flex;
 	justify-content: space-between;
-	
+
 }
 .content .tx
 {
@@ -566,6 +570,7 @@ textarea::placeholder
 	position: absolute;
 	top: 640px;
 	left: 342px;
+	outline: none;
 	color: white;
 	font-size:  17px;
 	border: none;

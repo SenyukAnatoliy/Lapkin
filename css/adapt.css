@@ -2,7 +2,10 @@
 
 @media only screen and (max-width: 480px)
 {
-
+#go-top
+{
+	opacity: 0
+}
 	header{
 		width: 90%;
 	}
@@ -188,7 +191,7 @@ hr
 	textarea {width: 80%;}
 	.container7 .content .box button {
 		left: 35px;
-		top: none;
+		top: 630px;
 		margin: 0;
 
 	}

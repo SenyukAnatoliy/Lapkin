@@ -117,6 +117,21 @@ hr
 	background: white;
 	border:none;
 	margin-left: 13px;
+	animation: 1s str;
+	transform-origin: 50%;
+}
+@keyframes str
+{
+	0%
+	{
+		background:  #8A697B;
+		transform: scaleX(0);	
+	}
+	100%
+	{
+		background:  white;
+		transform: scaleX(1);
+	}
 }
 /*====================*/
 .container2

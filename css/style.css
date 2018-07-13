@@ -108,7 +108,7 @@ hr
 {
 	width: 610px;
 	height: 420px;
-	/*background: green;*/
+	background: green;
 	position: absolute;
 	top: 170px;
 	right: 0px;
@@ -140,7 +140,7 @@ button
 	/*top: 350px;	*/
 	/*bottom: 0;*/
 	/*right: 410px;*/
-	margin-top: 50px;
+	margin-top: 40px;
 	color: white;
 	font-size:  17px;
 	border: none;
